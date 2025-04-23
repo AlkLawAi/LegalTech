@@ -230,7 +230,13 @@
 <footer>
   <p>&copy; 2025 LegalTech Group</p>
 </footer>
-
+<script>
+    function toggleNav(button) {
+      const navList = document.querySelector('nav ul');
+      navList.classList.toggle('show');
+      button.classList.toggle('active');
+    }
+  </script>
 <script>
   const correctAnswers = {
     q1: 'b',
